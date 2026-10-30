@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "lib": ["ES2023", "DOM"],
+    "types": ["google-apps-script","vite/client"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "vite.config.*": ["./vite.config.*"]},
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* */
+//    "allowJs": true,
+//    "checkJs": true,
+//    "emitDeclarationOnly": false,
+//    "outDir": "dist",
+//    "rootDir": "src",
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*",
+    "vite.config.ts"]
+}

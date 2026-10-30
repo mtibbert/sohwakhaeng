@@ -28,9 +28,5 @@
   "exceptionLogging": "STACKDRIVER",
   "oauthScopes": ["https://www.googleapis.com/auth/gmail.send"],
   "runtimeVersion": "V8",
-  "timeZone": "America/Chicago",
-  "webapp": {
-    "access": "ANYONE",
-    "executeAs": "USER_ACCESSING"
-  }
+  "timeZone": "America/Chicago"
 }
