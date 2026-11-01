@@ -25,7 +25,8 @@
     "build": "tsc && vite build",
     "push": "npm run build && clasp push",
     "push:only": "clasp push",
-    "test": "vitest"
+    "test": "vitest",
+    "test:verbose": "npx vitest --reporter=verbose"
   },
   "allowScripts": {
     "fsevents@2.3.3": true,
