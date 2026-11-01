@@ -1,4 +1,4 @@
-// src/lib/utility/date/date.ts
+// src/lib/utility/date/dateUtility.ts
 
 /** An immutable array of strings. */
 type ImmutableStringArray = ReadonlyArray<string>;
