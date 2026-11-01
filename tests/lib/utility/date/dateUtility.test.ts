@@ -1,6 +1,6 @@
 // tests/lib/utility/date/date.test.ts
 
-import { DateUtility } from "../../../../src/lib/utility/date/date.ts"
+import { DateUtility } from "../../../../src/lib/utility/date/dateUtility.ts"
 
 import { skip, describe, it, expect } from 'vitest'
 
