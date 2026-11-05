@@ -13,7 +13,7 @@ const targets = [
     rename: { stripBase: 1 }, // Keep NPM package name
   },
   { src: "src/**/*.gs", dest: ".", rename: { stripBase: true } },
-  { src: "zoetic", dest: ".", rename: { stripBase: false } },
+  // { src: "zoetic", dest: ".", rename: { stripBase: false } },
   { src: "appsscript.json", dest: ".", rename: { stripBase: true } },
 ];
 

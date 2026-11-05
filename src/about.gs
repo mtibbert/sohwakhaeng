@@ -6,14 +6,10 @@
  * @beta
  */
 
-//* Test sample loaded library call *//
-function sayHello() {
-  gs.logInfo(`Hello World.`);
-}
-
-//* Test Library integration *//
-function testLibrary() {
-  gs.tests.run();
+//* Display Library integration *//
+function displayAllDocumentationLibrary() {
+  gs.DateUtilityHelp.topicHelpAll();
+  gs.LogInfoHelp.topicHelpAll();
 }
 
 
